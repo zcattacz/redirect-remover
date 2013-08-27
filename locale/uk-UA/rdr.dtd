@@ -1,0 +1,50 @@
+<!ENTITY rdr.copyCleanLink "Скопіювати вичищену адресу">
+<!ENTITY rdr.addToList "Додати хост до списку">
+<!ENTITY rdr.removeFromList "Видалити хост із списку">
+<!ENTITY rdr.openCleaned "Відкрити очищене посилання">
+<!ENTITY rdr.openUnCleaned "Відкрити неочищене посилання">
+<!ENTITY pref.windowtitle "Налаштування Redirect Remover">
+<!ENTITY pref.whitelist "Білий список">
+<!ENTITY pref.whitelist.desc "Сторінки у білому списку можуть використовувати перенаправлення.">
+<!ENTITY pref.whitelist.link "Пояснення фільтрів">
+<!ENTITY pref.whitelist.addr "Адреса веб-сайту">
+<!ENTITY pref.whitelist.desc.ext.link "Довідка (з прикладами)">
+<!ENTITY pref.whitelist.removepermission.label "Видалити фільтр">
+<!ENTITY pref.whitelist.removepermission.accesskey "R">
+<!ENTITY pref.whitelist.removeallpermissions.label "Видалити всі фільтри">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "e">
+<!ENTITY pref.whitelist.adddefault.label "Додати фільтри за замовчуванням">
+<!ENTITY pref.whitelist.adddefault.accesskey "F">
+<!ENTITY pref.whitelist.exclude "Не вичищати">
+<!ENTITY pref.whitelist.exclude.accesskey "D">
+<!ENTITY pref.misc "Додатково">
+<!ENTITY pref.cleanImages "Вичищати картинки">
+<!ENTITY pref.cleanImages.accesskey "I">
+<!ENTITY pref.statusbarbutton "Показувати іконку в рядку стану">
+<!ENTITY pref.statusbarbutton.accesskey "S">
+<!ENTITY pref.changeCursor "Використовувати спеціальний курсор для вичищених посилань">
+<!ENTITY pref.changeCursor.accesskey "U">
+<!ENTITY pref.contextmenu.desc "Показувати у контекстному меню (на посиланнях з перенаправленнями)">
+<!ENTITY pref.contextmenu.whitelist "Показувати &apos;Додати/Видалити із списку&apos;">
+<!ENTITY pref.contextmenu.whitelist.accesskey "A">
+<!ENTITY pref.contextmenu.copycleanlink "Показувати &apos;Скопіювати очищене посилання&apos;">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "C">
+<!ENTITY pref.contextmenu.contextopen "Показувати &apos;Відкрити очищене посилання&apos;">
+<!ENTITY pref.contextmenu.contextopen.accesskey "O">
+<!ENTITY rdr.metaData.cleanedLocation "Очищена адреса:">
+<!ENTITY rdr.metaData.host "Хост:">
+<!ENTITY rdr.metaData.link "Посилання">
+<!ENTITY rdr.metaData.image "Картинка">
+<!ENTITY rdr.button.switch "Ввімкнути/Вимкнути очищення">
+<!ENTITY rdr.button.switch.title2 "Лівий клац: ввімкнути/Вимкнути очищення; Середній клац: відкрити налаштування; Правий клац: меню">
+<!ENTITY rdrHelp.title "Довідка Redirect Remover">
+<!ENTITY rdrHelp.close "Закрити">
+<!ENTITY rdrHelp.basic "Що робити з фільтрами - Прості фільтри">
+<!ENTITY rdrHelp.advanced "Розширені фільтри">
+<!ENTITY rdrHelp.exp "Додавання фільтру до білого списку дозволить всім сайтам, яких він пропустить використовувати перенаправлення. Є багато випадків коли фільтр корисний - напр. сторінки з online-перекладом, там RDR не завжди вірно визначить чи потрібно чистити посилання.">
+<!ENTITY rdrHelp.filter "Фільтр:">
+<!ENTITY rdrHelp.allows "Дозволяє:">
+<!ENTITY rdrHelp.doesntAllow "Не дозволяє:">
+<!ENTITY rdrHelp.domainsOnly "За замовчуванням підходять лише домени (перша частина адреси). Інакше сайт може просто містити в своїй адресі один із фільтрів за замовчуванням і обманути RDR.">
+<!ENTITY rdrHelp.advanced.desc "Якщо ви трішки &quot;шарите&quot;, можете використовувати &apos;*&apos; (зірочка) як зімінник довільної кількості символів. Наприклад:">
+<!ENTITY rdrHelp.fullDomains "Якщо вас задовільнить лише повне співпадіння, почніть фільтр із &quot;протокол://&quot;. Можете й далі використовувати &apos;*&apos; ПІСЛЯ протоколу. Це захистить вас від можливих вкраплень фільтрів у адресах сайту і обману RDR. Приклади:">

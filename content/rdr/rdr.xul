@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://rdr/skin/rdr.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://rdr/locale/rdr.dtd">
+<overlay id="rdr" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="rdrlocale" src="chrome://rdr/locale/rdr.properties" />
+	</stringbundleset>
+	<script type="application/x-javascript" src="chrome://rdr/content/toolkit.js" />	
+	<script type="application/x-javascript" src="chrome://rdr/content/logger.js" />
+	<script type="application/x-javascript" src="chrome://rdr/content/rdr.js" />
+	<toolbarpalette id="BrowserToolbarPalette">
+		<toolbarbutton
+			class="toolbarbutton-1"
+			id="rdr-button"
+			tooltiptext="&rdr.button.switch.title2;"
+			label="&rdr.button.switch;"
+			oncommand="return false;"
+			onclick="return rdrb.handleButtonClick(event);"
+			type="menu-button">
+		</toolbarbutton>
+	</toolbarpalette>
+	
+	<statusbar id="status-bar">
+		<statusbarpanel 
+			tooltiptext="&rdr.button.switch.title2;"
+			id="rdr-status-button"
+			class="statusbarpanel-menu-iconic statusbarpanel-iconic"
+			onclick="return rdrb.handleButtonClick(event,true);">
+		</statusbarpanel>
+	</statusbar>
+	
+	<popupset id="mainPopupSet">
+		<menupopup ontooltiptext="" oncommand="event.stopPropagation()" onclick="event.stopPropagation()" id="rdrButtonMenu" position="after_start"/>
+
+	
+		<popup id="contentAreaContextMenu">
+			<menuitem id="rdr-copy-clean-link"
+				label="&rdr.copyCleanLink;" 
+				oncommand="rdrb.copyCleanLink();" 
+				insertafter="context-copylink"	
+				class="menuitem-iconic"
+			/>
+			<menuitem id="rdr-add-to-list"
+				label="&rdr.addToList;" 
+				oncommand="rdr.addLinkToList(rdrb.origlinkURL[1]);" 
+				insertafter="rdr-copy-clean-link"
+				class="menuitem-iconic"
+			/>
+			<menuitem id="rdr-remove-from-list" 
+				label="&rdr.removeFromList;" 
+				oncommand="rdr.removeLinkFromList(rdrb.origlinkURL[1]);" 
+				insertafter="rdr-copy-clean-link" 
+				class="menuitem-iconic"
+			/>
+			<menuitem id="rdr-open-cleaned" 
+				label="&rdr.openCleaned;" 
+				oncommand="rdrb.openLink(rdrb.addURLToHistory(rdrb.origlinkURL[3],gContextMenu.link),gContextMenu.link);" 
+				insertafter="context-openlinkintab" 
+				class="menuitem-iconic"
+			/>
+			<menuitem id="rdr-open-uncleaned"
+				label="&rdr.openUnCleaned;" 
+				oncommand="rdrb.openLink(rdrb.addURLToHistory(rdrb.origlinkURL[1],gContextMenu.link),gContextMenu.link);" 
+				insertafter="context-openlinkintab" 
+				class="menuitem-iconic"
+			/>
+		</popup>	
+	</popupset>
+</overlay>

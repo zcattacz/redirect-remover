@@ -1,0 +1,53 @@
+<!ENTITY rdr.copyCleanLink "Copier l&apos;adresse du lien nettoyé">
+<!ENTITY rdr.addToList "Ajouter un nom d&apos;hôte à la liste">
+<!ENTITY rdr.removeFromList "Supprimer un nom d&apos;hôte de la liste">
+<!ENTITY rdr.openCleaned "Ouvrir Lien Nettoyé">
+<!ENTITY rdr.openUnCleaned "Ouvrir Lien Non Nettoyé">
+<!ENTITY pref.windowtitle "Préférences de Redirect Remover">
+<!ENTITY pref.whitelist "Liste blanche">
+<!ENTITY pref.whitelist.desc "Sites autorisés à utiliser des redirections. Exemple : « akaxeen.tyllo.de » autorise le lien « http://akaxeen.tyllo.de?www.mozilla.com »">
+<!ENTITY pref.whitelist.link "À propos des filtres">
+<!ENTITY pref.whitelist.addr "Adresse de site Web :">
+<!ENTITY pref.whitelist.desc.ext.link "Aide (avec exemples)">
+<!ENTITY pref.whitelist.removepermission.label "Supprimer le filtre">
+<!ENTITY pref.whitelist.removepermission.accesskey "s">
+<!ENTITY pref.whitelist.removeallpermissions.label "Effacer tous les filtres">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "e">
+<!ENTITY pref.whitelist.adddefault.label "Ajouter les filtres par défaut">
+<!ENTITY pref.whitelist.adddefault.accesskey "f">
+<!ENTITY pref.whitelist.exclude "Ne pas nettoyer">
+<!ENTITY pref.whitelist.exclude.accesskey "N">
+<!ENTITY pref.misc "Divers">
+<!ENTITY pref.cleanImages "Effacer les images au chargement">
+<!ENTITY pref.cleanImages.accesskey "i">
+<!ENTITY pref.statusbarbutton "Afficher l&apos;icône dans la barre d&apos;état">
+<!ENTITY pref.statusbarbutton.accesskey "b">
+<!ENTITY pref.changeCursor "Utiliser un curseur spécial sur les Liens Nettoyés">
+<!ENTITY pref.changeCursor.accesskey "u">
+<!ENTITY pref.contextmenu.desc "Afficher dans le menu contextuel général (pour les liens avec redirection) :">
+<!ENTITY pref.contextmenu.whitelist "Afficher « Ajouter à la liste » / « Supprimer de la liste »">
+<!ENTITY pref.contextmenu.whitelist.accesskey "a">
+<!ENTITY pref.contextmenu.copycleanlink "Afficher « Copier l&apos;adresse nettoyée »">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "c">
+<!ENTITY pref.contextmenu.contextopen "Afficher &apos;Ouvrir Lien (Non) Nettoyé&apos;">
+<!ENTITY pref.contextmenu.contextopen.accesskey "o">
+<!ENTITY rdr.metaData.cleanedLocation "Adresse nettoyée">
+<!ENTITY rdr.metaData.host "Hôte">
+<!ENTITY rdr.metaData.link "Lien">
+<!ENTITY rdr.metaData.image "Image">
+<!ENTITY rdr.button.switch "Activer / désactiver Redirect Remover">
+<!ENTITY rdr.button.switch.title2 "Clic gauche : activer/désactiver. Clic milieu : voir les options. Clic droit : menu.">
+<!ENTITY rdrHelp.title "Aide de Redirect Remover">
+<!ENTITY rdrHelp.close "Fermer">
+<!ENTITY rdrHelp.basic "Comment utiliser les filtres - Filtres simples">
+<!ENTITY rdrHelp.advanced "Filtres avancés">
+<!ENTITY rdrHelp.exp "***Ajouter un filtre à la liste blanche permettra à tous les sites correspondants d&apos;utiliser la redirection. 
+***
+***Voici quelques exemples :">
+<!ENTITY rdrHelp.filter "Filtre utilisé :">
+<!ENTITY rdrHelp.allows "Autorisé :">
+<!ENTITY rdrHelp.doesntAllow "Bloqué :">
+<!ENTITY rdrHelp.domainsOnly "***Par défaut, la vérification n&apos;a lieu qu&apos;au niveau du domaine (la première &quot;partie&quot; de l&apos;URL).
+***">
+<!ENTITY rdrHelp.advanced.desc "Si vous êtes assez expert(e) en la matière, utilisez le caractère * (étoile, astérisque) en tant que joker. Par exemple :">
+<!ENTITY rdrHelp.fullDomains "Si vous voulez comparer avec le lien entier, commencer simplement avec le protocole:// et ajouter votre filtre. Vous pouvez toujours utiliser des Jokers APRES le protocole. Cela permet de s&apos;assurer que des sites ne peuvent pas inclure des morceaux de filtres afin empêcher leurs liens d&apos;être nettoyés. Exemples :">

@@ -1,0 +1,59 @@
+
+#rdr-button {
+list-style-image:url(chrome://rdr/skin/rdr24x24.png);
+-moz-image-region:rect(0px, 48px, 24px, 24px);
+}
+
+/* Shamelessly borrowed from Mostly Crystal Theme */
+button:not([id="expander"]) > .button-box > .button-icon {
+margin-right:2px!important;
+}
+
+#rdr-add-to-list,#rdr-remove-from-list,#rdr-copy-clean-link,toolbar[iconsize="small"] #rdr-button,#rdr-open-uncleaned,#rdr-open-cleaned,.rdrAdd,.rdrRem,#rdr-status-button {
+list-style-image:url("chrome://rdr/skin/icon.png");
+-moz-image-region:rect(0px, 16px, 16px, 0px);
+}
+
+#rdr-copy-clean-link {
+-moz-image-region:rect(0px, 48px, 16px, 32px);
+}
+
+#rdr-open-cleaned {
+-moz-image-region:rect(0px, 64px, 16px, 48px);
+}
+
+#rdr-open-uncleaned {
+-moz-image-region:rect(0px, 80px, 16px, 64px);
+}
+
+#rdr-status-button {
+cursor:pointer;
+}
+
+#rdr-status-button menupopup {
+cursor:default;
+}
+
+#rdr-button[enabled="true"] {
+-moz-image-region:rect(0px, 48px, 24px, 24px);
+}
+
+#rdr-button[enabled="true"]:hover {
+-moz-image-region:rect(0px, 24px, 24px, 0px);
+}
+
+#rdr-button[enabled="false"]:hover {
+-moz-image-region:rect(0px, 72px, 24px, 48px);
+}
+
+#rdr-button[enabled="false"] {
+-moz-image-region:rect(0px, 96px, 24px, 72px);
+}
+
+toolbar[iconsize="small"] #rdr-button[enabled="true"], #rdr-status-button[enabled="true"] > image {
+-moz-image-region:rect(0px, 16px, 16px, 0px);
+}
+
+#rdr-remove-from-list,.rdrRem,toolbar[iconsize="small"] #rdr-button[enabled="false"],#rdr-status-button[enabled="false"] > image {
+-moz-image-region:rect(0px, 32px, 16px, 16px);
+}

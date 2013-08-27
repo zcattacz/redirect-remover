@@ -1,0 +1,72 @@
+<?xml version="1.0"?> 
+<!DOCTYPE overlay SYSTEM "chrome://rdr/locale/rdr.dtd">
+<overlay id="rdr" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<stringbundleset>
+		<stringbundle id="rdrlocale" src="chrome://rdr/locale/rdr.properties" />
+	</stringbundleset>
+	<script type="application/x-javascript" src="chrome://rdr/content/toolkit.js" /> 
+	<script type="application/x-javascript" src="chrome://rdr/content/metaData.js" /> 
+	<vbox id="image-sec">
+		<vbox id="rdrBlockimage" hidden="true">
+			<label value="Redirect Remover: &rdr.metaData.image;"/>
+			<separator class="groove"/>
+			<grid>
+				<columns>
+					<column/>
+					<column/>
+					<column flex="1"/>
+				</columns>
+				<rows>
+					<row id="image-url-cleaned">
+						<separator orient="vertical"/>
+						<label value="&rdr.metaData.cleanedLocation;"/>
+						<textbox readonly="true" id="image-url-cleaned-text"/>
+					</row>
+					<row id="image-url-host">
+						<separator orient="vertical"/>
+						<label value="&rdr.metaData.host;"/>
+						<textbox readonly="true" id="image-url-host-text"/>
+					</row>
+				</rows>
+			</grid>
+			<hbox>
+				<separator orient="vertical"/>
+				<button label="&rdr.addToList;" id="rdr-add-to-list-image" class="rdrAdd" onclick="rdr.addLinkToList(rdr.getById('image-url-text').value);updateOnPrefChange();"/>
+				<button label="&rdr.removeFromList;" id="rdr-remove-from-list-image" class="rdrRem" onclick="rdr.removeLinkFromList(rdr.getById('image-url-text').value);updateOnPrefChange();"/>
+			</hbox>
+		</vbox>
+		<separator/>
+	</vbox>
+	
+	<vbox id="link-sec">
+		<vbox id="rdrBlocklink" hidden="true">
+			<label value="Redirect Remover: &rdr.metaData.link;"/>
+			<separator class="groove"/>
+			<grid>
+				<columns>
+					<column/>
+					<column/>
+					<column flex="1"/>
+				</columns>
+				<rows>
+					<row id="link-url-cleaned">
+						<separator orient="vertical"/>
+						<label value="&rdr.metaData.cleanedLocation;"/>
+						<textbox readonly="true" id="link-url-cleaned-text"/>
+					</row>
+					<row id="link-url-host">
+						<separator orient="vertical"/>
+						<label value="&rdr.metaData.host;"/>
+						<textbox readonly="true" id="link-url-host-text"/>
+					</row>
+				</rows>
+			</grid>
+			<hbox>
+				<separator orient="vertical"/>
+				<button label="&rdr.addToList;" id="rdr-add-to-list-link" class="rdrAdd" onclick="rdr.addLinkToList(rdr.getById('link-url-text').value);updateOnPrefChange();"/>
+				<button label="&rdr.removeFromList;" id="rdr-remove-from-list-link" class="rdrRem" onclick="rdr.removeLinkFromList(rdr.getById('link-url-text').value);updateOnPrefChange();"/>
+			</hbox>
+		</vbox>
+		<separator/>
+	</vbox>
+</overlay>

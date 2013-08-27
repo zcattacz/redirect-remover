@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+
+<RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>{fe0258ab-4f74-43a1-8781-bcdf340f9ee9}</em:id>
+    <em:name>Redirect Remover</em:name>
+    <em:version>2.6.4</em:version>
+    <em:description>Removes Redirects from Links and Images</em:description>
+    <em:creator>xeen</em:creator>
+    <em:homepageURL>http://www.aredeye.com/addons/</em:homepageURL>
+    <em:iconURL>chrome://rdr/content/redirect.png</em:iconURL>
+    <em:optionsURL>chrome://rdr/content/prefs.xul</em:optionsURL>
+    
+    <em:translator>es-ES: urko</em:translator>  
+    <em:translator>fr-FR: myahoo, peuj, Pcdingo</em:translator>    
+    <em:translator>hu-HU: Cashman</em:translator>  
+    <em:translator>hr-HR: Krcko</em:translator>  
+    <em:translator>it-IT: MatrixIsAllOver</em:translator>  
+    <em:translator>ja-JP (mostly): drry</em:translator>  
+    <em:translator>ko-KR: wtspout</em:translator>  
+    <em:translator>nl-NL: markh</em:translator>  
+    <em:translator>pl-PL: Skiff</em:translator>  
+    <em:translator>pt-BR (partly): humbertosartini</em:translator>  
+    <em:translator>uk-UA: myroslav</em:translator>  
+    <em:translator>zh-CN: WangKing</em:translator>  
+    <em:translator>www.BabelZilla.org</em:translator>  
+    
+		<em:contributor>Adam Szalkowski (base64 detection)</em:contributor>
+		<em:contributor>Teo (general help)</em:contributor>
+		<em:contributor>cubefox (Extreme Bug Finder. Developers beware!)</em:contributor>
+		<em:contributor>Fatal (Original Logo)</em:contributor>
+		<em:contributor>Philip Mateescu (RegExp)</em:contributor>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>3.0b1</em:minVersion>
+        <em:maxVersion>3.6.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

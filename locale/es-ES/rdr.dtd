@@ -1,0 +1,50 @@
+<!ENTITY rdr.copyCleanLink "Copiar ruta del enlace depurado">
+<!ENTITY rdr.addToList "Añadir sitio web a la lista">
+<!ENTITY rdr.removeFromList "Eliminar sitio web de la lista">
+<!ENTITY rdr.openCleaned "Abrir enlace depurado">
+<!ENTITY rdr.openUnCleaned "Abrir enlace no depurado">
+<!ENTITY pref.windowtitle "Opciones de Redirect Remover">
+<!ENTITY pref.whitelist "Lista blanca">
+<!ENTITY pref.whitelist.desc "Los sitios de la lista blanca pueden usar redireccionamientos.">
+<!ENTITY pref.whitelist.link "Filtros explicados">
+<!ENTITY pref.whitelist.addr "Dirección del sitio web:">
+<!ENTITY pref.whitelist.desc.ext.link "Ayuda (con ejemplos)">
+<!ENTITY pref.whitelist.removepermission.label "Eliminar filtro">
+<!ENTITY pref.whitelist.removepermission.accesskey "f">
+<!ENTITY pref.whitelist.removeallpermissions.label "Eliminar todos los filtros">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "t">
+<!ENTITY pref.whitelist.adddefault.label "Añadir filtros predeterminados">
+<!ENTITY pref.whitelist.adddefault.accesskey "p">
+<!ENTITY pref.whitelist.exclude "No depurar">
+<!ENTITY pref.whitelist.exclude.accesskey "d">
+<!ENTITY pref.misc "Misc">
+<!ENTITY pref.cleanImages "Depurar imágenes al cargarlas">
+<!ENTITY pref.cleanImages.accesskey "i">
+<!ENTITY pref.statusbarbutton "Mostrar icono en la barra de estado">
+<!ENTITY pref.statusbarbutton.accesskey "M">
+<!ENTITY pref.changeCursor "Usar un cursor especial en enlaces depurados">
+<!ENTITY pref.changeCursor.accesskey "U">
+<!ENTITY pref.contextmenu.desc "Mostrar en menú contextual principal(en enlaces con redireccionamientos):">
+<!ENTITY pref.contextmenu.whitelist "Mostrar &apos;Añadir/eliminar de la lista&apos;">
+<!ENTITY pref.contextmenu.whitelist.accesskey "ñ">
+<!ENTITY pref.contextmenu.copycleanlink "Mostrar &apos;Copiar ubicación del enlace depurado&apos;">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "C">
+<!ENTITY pref.contextmenu.contextopen "Mostrar &apos;Abrir enlace (no) depurado&apos;">
+<!ENTITY pref.contextmenu.contextopen.accesskey "A">
+<!ENTITY rdr.metaData.cleanedLocation "Ubicación depurada:">
+<!ENTITY rdr.metaData.host "Servidor:">
+<!ENTITY rdr.metaData.link "Enlace">
+<!ENTITY rdr.metaData.image "Imagen">
+<!ENTITY rdr.button.switch "Habilitar/deshabilitar RDR">
+<!ENTITY rdr.button.switch.title2 "Clic izquierdo: habilitar/deshabilitar RDR; Clic intermedio: Abrir opciones; Clic derecho: Menú">
+<!ENTITY rdrHelp.title "Redirect Remover: Ayuda">
+<!ENTITY rdrHelp.close "Cerrar">
+<!ENTITY rdrHelp.basic "Cómo usar filtros - Filtros sencillos">
+<!ENTITY rdrHelp.advanced "Filtros avanzados">
+<!ENTITY rdrHelp.exp "Al añadir un filtro a la lista blanca todos los sitios que coincidan con él podrán usar redireccionamientos. Existen muchas circunstancias en las que se resulta útil o necesario un filtro, como por ejemplo los servicios de traducción online, en los que RDR no puede detectar si debe depurar o no un enlace. Puede ver a continuación varios ejemplos:">
+<!ENTITY rdrHelp.filter "Filtro:">
+<!ENTITY rdrHelp.allows "Permite:">
+<!ENTITY rdrHelp.doesntAllow "No permite:">
+<!ENTITY rdrHelp.domainsOnly "Por defecto sólo se admite coincidencia con los filtros en el nombre de dominio (la primera parte de la URL), pues si no un sitio web podría incluir uno de los filtros predeterminados en su enlace para así eludir la acción de RDR.">
+<!ENTITY rdrHelp.advanced.desc "Si es usted un usuario avanzado, puede usar un * (asterisco) como comodín. Por ejemplo:">
+<!ENTITY rdrHelp.fullDomains "Si quiere forzar a que coincida todo el enlace con el filtro, basta con que comience con protocolo:// y añada su filtro. Puede seguir usando comodines DESPUÉS del protocolo. Así se garantiza que los sitios web no pueden incluir partes de los filtros para evitar que sus enlaces sean depurados. Ejemplos:">

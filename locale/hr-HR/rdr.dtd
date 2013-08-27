@@ -1,0 +1,49 @@
+<!ENTITY rdr.copyCleanLink "Kopiraj pročišćenu adresu poveznice">
+<!ENTITY rdr.addToList "Dodaj poslužitelj u popis">
+<!ENTITY rdr.removeFromList "Ukloni poslužitelj iz popisa">
+<!ENTITY rdr.openCleaned "Otvori pročišćenu poveznicu">
+<!ENTITY rdr.openUnCleaned "Otvori nepročišćenu poveznicu">
+<!ENTITY pref.windowtitle "Redirect Remover Opcije">
+<!ENTITY pref.whitelist "Dopušteni popis">
+<!ENTITY pref.whitelist.desc "Stranice u dopuštenom popisu smiju koristiti preusmjeravanja.">
+<!ENTITY pref.whitelist.link "Filteri objašnjeni">
+<!ENTITY pref.whitelist.addr "Adresa web stranice">
+<!ENTITY pref.whitelist.removepermission.label "Ukloni stranicu">
+<!ENTITY pref.whitelist.removepermission.accesskey "U">
+<!ENTITY pref.whitelist.removeallpermissions.label "Ukloni sve stranice">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "l">
+<!ENTITY pref.whitelist.adddefault.label "Dodaj zadani filter">
+<!ENTITY pref.whitelist.adddefault.accesskey "f">
+<!ENTITY pref.whitelist.exclude "Nemoj očistiti">
+<!ENTITY pref.whitelist.exclude.accesskey "N">
+<!ENTITY pref.misc "Različito">
+<!ENTITY pref.cleanImages "Kod učitavanja očisti slike">
+<!ENTITY pref.cleanImages.accesskey "s">
+<!ENTITY pref.statusbarbutton "Prikaži ikonu u statusnoj traci">
+<!ENTITY pref.statusbarbutton.accesskey "t">
+<!ENTITY pref.changeCursor "Koristi posebni pokazivač na pročišćenim poveznicama">
+<!ENTITY pref.changeCursor.accesskey "r">
+<!ENTITY pref.contextmenu.desc "Prikaži u glavnom kontekstnom izborniku (kod poveznica s preusmjeravanjima):">
+<!ENTITY pref.contextmenu.whitelist "Prikaži &apos;Dodaj u/Ukloni iz popisa&apos;">
+<!ENTITY pref.contextmenu.whitelist.accesskey "D">
+<!ENTITY pref.contextmenu.copycleanlink "Prikaži &apos;Kopiraj pročišćenu adresu poveznice&apos;">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "K">
+<!ENTITY pref.contextmenu.contextopen "Prikaži &apos;Otvori (ne)Pročišćenu poveznicu&apos;">
+<!ENTITY pref.contextmenu.contextopen.accesskey "O">
+<!ENTITY rdr.metaData.cleanedLocation "Pročišćena adresa:">
+<!ENTITY rdr.metaData.host "Poslužitelj:">
+<!ENTITY rdr.metaData.link "Poveznica">
+<!ENTITY rdr.metaData.image "Slika">
+<!ENTITY rdr.button.switch "Promijeni RDR Uklj/Isklj">
+<!ENTITY rdr.button.switch.title2 "Lijevi klik: mijenja RDR uklj i isklj; Srednji klik: Otvara opcije, Desni klik: Izbornik">
+<!ENTITY rdrHelp.title "Redirect Remover: Pomoć">
+<!ENTITY rdrHelp.close "Zatvori">
+<!ENTITY rdrHelp.basic "Kako koristiti filtere - Jednostavni filteri">
+<!ENTITY rdrHelp.advanced "Napredni filteri">
+<!ENTITY rdrHelp.exp "Dodavanjem filtra u popis dopuštenih dopušta svim odgovarajućim stranicama da koriste preusmjeravanja. Postoje mnogi korisni primjeri kada je potreban filter - recimo na mrežnoj usluzi za prevođenje - gdje RDR ne može otkriti treba li poveznica biti pročišćena ili ne. Ovdje su neki primjeri:">
+<!ENTITY rdrHelp.filter "Filter:">
+<!ENTITY rdrHelp.allows "Dopušta:">
+<!ENTITY rdrHelp.doesntAllow "Ne dopušta:">
+<!ENTITY rdrHelp.domainsOnly "Prema zadanom samo domene (prvi dio web adrese) su odgovarajuće. U ostalim slučajevima, stranicu treba jednostavno uključiti u jedan od zadanih filtera njezinih poveznica kako bi zaobišli RDR.">
+<!ENTITY rdrHelp.advanced.desc "Ako ste malo napredniji, možete koristiti * (zvjezdica, asterisk) kao joker. Naprimjer:">
+<!ENTITY rdrHelp.fullDomains "Ako želite usporediti s cijelom poveznicom, jednostavno započnite s protocol:// i dodajte svoj filter. Joj uvijek možete koristiti jokere NAKON protokola. To osigurava da stranice ne mogu uključivati dijelove filtera da bi spriječile čišćenje njihovih poveznica.  Primjeri:">

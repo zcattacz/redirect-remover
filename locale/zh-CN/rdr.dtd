@@ -1,0 +1,50 @@
+<!ENTITY rdr.copyCleanLink "复制目标链接">
+<!ENTITY rdr.addToList "添加此链接域名至白名单">
+<!ENTITY rdr.removeFromList "从白名单中删除此链接域名">
+<!ENTITY rdr.openCleaned "打开目标链接">
+<!ENTITY rdr.openUnCleaned "打开原始链接">
+<!ENTITY pref.windowtitle "Redirect Remover 选项">
+<!ENTITY pref.whitelist "白名单">
+<!ENTITY pref.whitelist.desc "白名单中的站点可以使用重定向。">
+<!ENTITY pref.whitelist.link "过滤规则说明">
+<!ENTITY pref.whitelist.addr "网址：">
+<!ENTITY pref.whitelist.removepermission.label "删除">
+<!ENTITY pref.whitelist.removepermission.accesskey "R">
+<!ENTITY pref.whitelist.removeallpermissions.label "全部删除">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "e">
+<!ENTITY pref.whitelist.adddefault.label "添加默认规则">
+<!ENTITY pref.whitelist.adddefault.accesskey "F">
+<!ENTITY pref.whitelist.exclude "添加">
+<!ENTITY pref.whitelist.exclude.accesskey "D">
+<!ENTITY pref.misc "其他">
+<!ENTITY pref.cleanImages "载入时清除图片中的重定向">
+<!ENTITY pref.cleanImages.accesskey "I">
+<!ENTITY pref.statusbarbutton "在状态栏显示图标">
+<!ENTITY pref.statusbarbutton.accesskey "S">
+<!ENTITY pref.changeCursor "在去除了重定向的链接上显示特定的鼠标指针">
+<!ENTITY pref.changeCursor.accesskey "U">
+<!ENTITY pref.contextmenu.desc "当右键点击重定向链接时：">
+<!ENTITY pref.contextmenu.whitelist "显示[添加至白名单/从白名单中删除]">
+<!ENTITY pref.contextmenu.whitelist.accesskey "A">
+<!ENTITY pref.contextmenu.copycleanlink "显示[复制目标链接]">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "C">
+<!ENTITY pref.contextmenu.contextopen "显示[打开目标链接/打开原始链接]">
+<!ENTITY pref.contextmenu.contextopen.accesskey "O">
+<!ENTITY rdr.metaData.cleanedLocation "目标链接：">
+<!ENTITY rdr.metaData.host "域名：">
+<!ENTITY rdr.metaData.link "链接">
+<!ENTITY rdr.metaData.image "图片">
+<!ENTITY rdr.button.switch "启用/禁用 RDR">
+<!ENTITY rdr.button.switch.title2 "左键单击；开关RDR；中建单击：打开选项；右键单击：显示菜单。">
+<!ENTITY rdrHelp.title "Redirect Remover：帮助">
+<!ENTITY rdrHelp.close "关闭">
+<!ENTITY rdrHelp.basic "如何使用过滤规则 - 规则示例">
+<!ENTITY rdrHelp.advanced "高级规则">
+<!ENTITY rdrHelp.exp "添加规则到白名单可以允许匹配的站点使用重定向。某些情况下RDR不能确定是否应该去除重定向 - 比如在线翻译服务 - 因此过滤规则是必须的。
+以下是一些例子：">
+<!ENTITY rdrHelp.filter "规则：">
+<!ENTITY rdrHelp.allows "将允许：">
+<!ENTITY rdrHelp.doesntAllow "不允许：">
+<!ENTITY rdrHelp.domainsOnly "默认情况下只有域名会被匹配，否则网站可能会通过在链接中包含默认的过滤规则来绕过RDR。">
+<!ENTITY rdrHelp.advanced.desc "你可以使用星号“*”作为通配符，比如：">
+<!ENTITY rdrHelp.fullDomains "如果你需要匹配完整的链接，过滤规则以协议（如http://）开头即可，协议后的规则内容支持通配符。这样可以确保网站不能通过包含部分规则来阻止重定向被去除。比如：">

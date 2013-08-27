@@ -1,0 +1,71 @@
+<?xml version="1.0"?> 
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?> 
+
+<!DOCTYPE overlay SYSTEM "chrome://rdr/locale/rdr.dtd">
+
+<dialog
+		id="rdroptions"
+		buttons="cancel,accept"
+		title="&pref.windowtitle;"
+		ondialogaccept="rdrPref.save();window.close();"
+		ondialogcancel="window.close();"
+		xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"
+		onload="rdrPref.init();sizeToContent();"
+		persist="screenX screenY">		
+		
+	<script type="application/x-javascript" src="chrome://rdr/content/logger.js" />
+	<script type="application/x-javascript" src="chrome://rdr/content/prefs.js" />		
+	<script type="application/x-javascript" src="chrome://browser/content/utilityOverlay.js" />		
+	<stringbundleset>
+		<stringbundle id="bundlePreferences" src="chrome://rdr/locale/rdr.properties"/>
+	</stringbundleset>
+	
+		<groupbox flex="1">
+			<caption label="&pref.whitelist;" />
+			<hbox >
+				<description>&pref.whitelist.desc;</description>
+				<hbox flex="1" pack="end">
+					<label class="text-link" onclick="window.openDialog('chrome://rdr/content/help.xul','','chrome,centerscreen');" value="&pref.whitelist.link;" />
+				</hbox>
+			</hbox>
+			
+			<label control="url" value="&pref.whitelist.addr;"/>
+			<hbox align="center">
+				<textbox id="url" flex="1" oninput="rdrPref.onHostInput(event.target);" onkeypress="rdrPref.onHostKeyPress(event);"/>	
+				<button id="btnAllow" disabled="true" label="&pref.whitelist.exclude;" accesskey="&pref.whitelist.exclude.accesskey;"
+								oncommand="rdrPref.addPermission();"/>
+			</hbox>
+			<stack flex="1">
+				<listbox flex="1" id="permissionsBox" onkeypress="rdrPref.onPermissionKeyPress(event)" onselect="rdrPref.onPermissionSelected();" ondblclick="if (event.button == 0) rdrPref.editFilter()"/>
+				<textbox id="edBox" value="dfgdfg" hidden="true" onblur="rdrPref.acceptFilter();" onkeypress="rdrPref.checkKeysOnFilter(event);"/>
+			</stack>
+			<hbox class="actionButtons" align="end">
+				<button id="removePermission" disabled="true"
+								accesskey="&pref.whitelist.removepermission.accesskey;"
+								icon="remove" label="&pref.whitelist.removepermission.label;"
+								oncommand="rdrPref.onPermissionDeleted();"/>
+				<button id="removeAllPermissions"
+								icon="clear" label="&pref.whitelist.removeallpermissions.label;"
+								accesskey="&pref.whitelist.removeallpermissions.accesskey;" 
+								oncommand="rdrPref.onAllPermissionsDeleted();"/>
+				<hbox flex="1" pack="end">
+					<button label="&pref.whitelist.adddefault.label;"
+								accesskey="&pref.whitelist.adddefault.accesskey;" 
+								oncommand="rdrPref.addDefaultFilters();"/>
+				</hbox>
+				
+			</hbox>
+		</groupbox>	
+		<groupbox>
+			<caption label="&pref.contextmenu.desc;" /> 
+			<checkbox accesskey="&pref.contextmenu.contextopen.accesskey;" id="chbContextOpen" label="&pref.contextmenu.contextopen;"/> 
+			<checkbox accesskey="&pref.contextmenu.whitelist.accesskey;" id="chbWhitelist" label="&pref.contextmenu.whitelist;"/>
+			<checkbox accesskey="&pref.contextmenu.copycleanlink.accesskey;" id="chbCopyClean" label="&pref.contextmenu.copycleanlink;"/>
+		</groupbox>
+		<groupbox>
+			<caption label="&pref.misc;" />
+			<checkbox accesskey="&pref.cleanImages.accesskey;" id="chbCleanImages" label="&pref.cleanImages;"/>
+			<checkbox accesskey="&pref.changeCursor.accesskey;" id="chbChangeCursor" label="&pref.changeCursor;"/>
+			<checkbox accesskey="&pref.statusbarbutton.accesskey;" id="chbStatusButton" label="&pref.statusbarbutton;"/>
+		</groupbox>
+</dialog>

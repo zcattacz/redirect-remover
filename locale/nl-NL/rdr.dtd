@@ -1,0 +1,50 @@
+<!ENTITY rdr.copyCleanLink "Opgeschoonde koppelingslokatie kopiëren">
+<!ENTITY rdr.addToList "Host aan lijst toevoegen">
+<!ENTITY rdr.removeFromList "Host van lijst verwijderen">
+<!ENTITY rdr.openCleaned "Opgeschoonde koppeling openen">
+<!ENTITY rdr.openUnCleaned "Niet-opgeschoonde koppeling openen">
+<!ENTITY pref.windowtitle "Redirect Remover opties">
+<!ENTITY pref.whitelist "Witte lijst">
+<!ENTITY pref.whitelist.desc "Sites op de witte lijst mogen doorverwijzen. Voorbeeld: Voeg akaxeen.tyllo.de toe om koppelingen als http://akaxeen.tyllo.de?www.mozilla.com toe te staan">
+<!ENTITY pref.whitelist.link "Uitleg over filters">
+<!ENTITY pref.whitelist.addr "Adres van de website:">
+<!ENTITY pref.whitelist.desc.ext.link "Help (met voorbeelden)">
+<!ENTITY pref.whitelist.removepermission.label "Filter verwijderen">
+<!ENTITY pref.whitelist.removepermission.accesskey "V">
+<!ENTITY pref.whitelist.removeallpermissions.label "Alle filters verwijderen">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "w">
+<!ENTITY pref.whitelist.adddefault.label "Standaardfilters verwijderen">
+<!ENTITY pref.whitelist.adddefault.accesskey "f">
+<!ENTITY pref.whitelist.exclude "Niet opschonen">
+<!ENTITY pref.whitelist.exclude.accesskey "N">
+<!ENTITY pref.misc "Diversen">
+<!ENTITY pref.cleanImages "Afbeeldingen bij laden opschonen">
+<!ENTITY pref.cleanImages.accesskey "A">
+<!ENTITY pref.statusbarbutton "Pictogram in statusbalk weergeven">
+<!ENTITY pref.statusbarbutton.accesskey "W">
+<!ENTITY pref.changeCursor "Speciale cursor op opgeschoonde koppelingen gebruiken">
+<!ENTITY pref.changeCursor.accesskey "G">
+<!ENTITY pref.contextmenu.desc "Rechts klikken op een koppeling met doorverwijzing:">
+<!ENTITY pref.contextmenu.whitelist "&apos;Toevoegen/Verwijderen van/aan lijst&apos; weergeven">
+<!ENTITY pref.contextmenu.whitelist.accesskey "T">
+<!ENTITY pref.contextmenu.copycleanlink "&apos;Opgeschoonde koppelingslokatie kopiëren&apos; weergeven">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "K">
+<!ENTITY pref.contextmenu.contextopen "&apos;(Niet-)opgeschoonde koppeling openen&apos; weergeven">
+<!ENTITY pref.contextmenu.contextopen.accesskey "O">
+<!ENTITY rdr.metaData.cleanedLocation "Opgeschoonde lokatie:">
+<!ENTITY rdr.metaData.host "Host:">
+<!ENTITY rdr.metaData.link "Koppeling">
+<!ENTITY rdr.metaData.image "Afbeelding">
+<!ENTITY rdr.button.switch "RDR in-/uitschakelen">
+<!ENTITY rdr.button.switch.title2 "Klik: RDR in- en uitschakelen; Midden-klik: Optiesvenster openen; Rechterklik: Menu">
+<!ENTITY rdrHelp.title "Redirect Remover: Help">
+<!ENTITY rdrHelp.close "Sluiten">
+<!ENTITY rdrHelp.basic "Filters gebruiken - Eenvoudige filters">
+<!ENTITY rdrHelp.advanced "Geavanceerde filters">
+<!ENTITY rdrHelp.exp "Het toevoegen van een filter aan de witte lijst staat aan alle sites die een match geven toe dat doorverwijzingen worden gebruikt. Er zijn veel nuttige gevallen waarin een filter nodig is - bijvoorbeeld een online vertaaldienst - waarRDR niet kan detecteren of een koppeling moet worden opgeschoond of niet. Hier zijn een paar voorbeelden:">
+<!ENTITY rdrHelp.filter "Filter:">
+<!ENTITY rdrHelp.allows "Staat toe:">
+<!ENTITY rdrHelp.doesntAllow "Weigert:">
+<!ENTITY rdrHelp.domainsOnly "Standaard worden alleen domeinen (het &apos;eerste deel&apos; van de URL) vergeleken met het filter. Anders kan een site eenvoudigweg één van de standaardfilters in hun koppelingen opnemen om RDR te omzeilen.">
+<!ENTITY rdrHelp.advanced.desc "Als u wat geavanceerdere filters wilt maken, kunt u * (sterretje, asterisk) gebruiken als een wildcard. Bijvoorbeeld:">
+<!ENTITY rdrHelp.fullDomains "Als u wilt vergelijken met een volledige koppeling, start dan eenvoudigweg met protocol:// en voeg dan uw filter toe. NA het protocol kunt u nog steeds wildcards gebruiken. Dit zorgt ervoor dat sites niet delen van filters kunnen opnemen om te voorkomen dat hun koppelingen worden opgeschoond. Voorbeelden:">

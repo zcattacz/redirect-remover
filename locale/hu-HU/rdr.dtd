@@ -1,0 +1,49 @@
+<!ENTITY rdr.copyCleanLink "Átirányításmentes hivatkozás másolása">
+<!ENTITY rdr.addToList "Kiszolgáló hozzáadása a listához">
+<!ENTITY rdr.removeFromList "Kiszolgáló törlése a listából">
+<!ENTITY rdr.openCleaned "Átirányításmentes hivatkozás megnyitása">
+<!ENTITY rdr.openUnCleaned "Átirányítást tartalmazó hivatkozás megnyitása">
+<!ENTITY pref.windowtitle "Redirect Remover - beállítások">
+<!ENTITY pref.whitelist "Fehérlista">
+<!ENTITY pref.whitelist.desc "A fehérlistában szereplő weboldalak átirányításokat tartalmazhatnak.">
+<!ENTITY pref.whitelist.link "Szűrőmagyarázat">
+<!ENTITY pref.whitelist.addr "Webhely címe:">
+<!ENTITY pref.whitelist.removepermission.label "Szűrő eltávolítása">
+<!ENTITY pref.whitelist.removepermission.accesskey "L">
+<!ENTITY pref.whitelist.removeallpermissions.label "Minden szűrő eltávolítása">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "S">
+<!ENTITY pref.whitelist.adddefault.label "Alapértelmezett szűrők hozzáadása">
+<!ENTITY pref.whitelist.adddefault.accesskey "A">
+<!ENTITY pref.whitelist.exclude "Ne távolítsd el az átirányításokat">
+<!ENTITY pref.whitelist.exclude.accesskey "e">
+<!ENTITY pref.misc "Vegyes">
+<!ENTITY pref.cleanImages "Átirányítás eltávolítása képekből azok betöltésekor">
+<!ENTITY pref.cleanImages.accesskey "K">
+<!ENTITY pref.statusbarbutton "Állapotsor ikon megjelenítése">
+<!ENTITY pref.statusbarbutton.accesskey "I">
+<!ENTITY pref.changeCursor "Legyen speciális a kurzor, ha a hivatkozás nem tartalmaz átirányítást">
+<!ENTITY pref.changeCursor.accesskey "H">
+<!ENTITY pref.contextmenu.desc "Menüpont megjelenítése, ha átirányítást tartalmazó hivatkozásra kattint:">
+<!ENTITY pref.contextmenu.whitelist "Listához hozzáad/listából töröl">
+<!ENTITY pref.contextmenu.whitelist.accesskey "T">
+<!ENTITY pref.contextmenu.copycleanlink "Átirányítást nem tartalmazó hivatkozás címének másolása">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "C">
+<!ENTITY pref.contextmenu.contextopen "Átirányítást (nem) tartalmazó hivatkozás megnyitása">
+<!ENTITY pref.contextmenu.contextopen.accesskey "M">
+<!ENTITY rdr.metaData.cleanedLocation "Átirányítást nem tartalmazó webhely:">
+<!ENTITY rdr.metaData.host "Kiszolgáló:">
+<!ENTITY rdr.metaData.link "Hivatkozás">
+<!ENTITY rdr.metaData.image "Kép">
+<!ENTITY rdr.button.switch "RDR váltás be/ki">
+<!ENTITY rdr.button.switch.title2 "Bal: RDR váltás be/ki; Középső: Beállítások; Jobb: Menü">
+<!ENTITY rdrHelp.title "Redirect Remover - Súgó">
+<!ENTITY rdrHelp.close "Bezárás">
+<!ENTITY rdrHelp.basic "Szűrők használata - Egyszerű szűrők">
+<!ENTITY rdrHelp.advanced "Haladó szűrők">
+<!ENTITY rdrHelp.exp "A fehérlistában szereplő szűrő az összes megfelelő weboldalon engedélyezi az átirányítás használatát. Több ok is lehet szűrő használatára - online fordítók - ahol az RDR nem tudja eldönteni, hogy a hivatkozás tartalmaz-e átirányítást, vagy nem. Néhány példa:">
+<!ENTITY rdrHelp.filter "Szűrő:">
+<!ENTITY rdrHelp.allows "Engedélyez:">
+<!ENTITY rdrHelp.doesntAllow "Nem engedélyez:">
+<!ENTITY rdrHelp.domainsOnly "Alapértelmezett esetben csak a weboldalak (a webcím &apos;első része&apos;) keresése történik. Ellenkező esetben a weboldal a hivatkozásaiban tartalmaz egy alapértelmezett szűrőt    az RDR megkerülésére.">
+<!ENTITY rdrHelp.advanced.desc "Amennyiben haladó felhasználó, használhatja a * (csillag) jelet mint helyettesítő karaktert. Például:">
+<!ENTITY rdrHelp.fullDomains "Újrakeresésnél kezdje a következő protokollal:// majd adja hozzá a szűrőt. Használhatja a helyettesítő karaktert a protokoll VÉGÉN. Ez biztosítja, hogy a weboldalak nem tartalmazhatják a szűrők egyes részeit, ezáltal biztosítják maguk számára, hogy nem tartalmaznak átirányítást. Például:">

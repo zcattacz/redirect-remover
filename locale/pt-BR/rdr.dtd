@@ -1,0 +1,49 @@
+<!ENTITY rdr.copyCleanLink "Copy Cleaned Link Location">
+<!ENTITY rdr.addToList "Adicionar host a lista">
+<!ENTITY rdr.removeFromList "Remover host da lista">
+<!ENTITY rdr.openCleaned "Open Cleaned Link">
+<!ENTITY rdr.openUnCleaned "Open Uncleaned Link">
+<!ENTITY pref.windowtitle "Redirect Remover Options">
+<!ENTITY pref.whitelist "Lista branca">
+<!ENTITY pref.whitelist.desc "Sites on the whitelist may use redirects.">
+<!ENTITY pref.whitelist.link "Filters explained">
+<!ENTITY pref.whitelist.addr "Address of website:">
+<!ENTITY pref.whitelist.removepermission.label "Remover filtro">
+<!ENTITY pref.whitelist.removepermission.accesskey "R">
+<!ENTITY pref.whitelist.removeallpermissions.label "Remover todos os filtros">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "e">
+<!ENTITY pref.whitelist.adddefault.label "Adicionar filtro padrão">
+<!ENTITY pref.whitelist.adddefault.accesskey "F">
+<!ENTITY pref.whitelist.exclude "Don&apos;t clean">
+<!ENTITY pref.whitelist.exclude.accesskey "D">
+<!ENTITY pref.misc "Misc">
+<!ENTITY pref.cleanImages "Clean Images on Load">
+<!ENTITY pref.cleanImages.accesskey "I">
+<!ENTITY pref.statusbarbutton "Mostrar ícone na barra de status">
+<!ENTITY pref.statusbarbutton.accesskey "S">
+<!ENTITY pref.changeCursor "Use Special Cursor on Cleaned Links">
+<!ENTITY pref.changeCursor.accesskey "U">
+<!ENTITY pref.contextmenu.desc "Show in Main Context Menu (on Links with Redirects):">
+<!ENTITY pref.contextmenu.whitelist "Show &apos;Add to/Remove From List&apos;">
+<!ENTITY pref.contextmenu.whitelist.accesskey "A">
+<!ENTITY pref.contextmenu.copycleanlink "Show &apos;Copy Cleaned Link Location&apos;">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "C">
+<!ENTITY pref.contextmenu.contextopen "Show &apos;Open (Un)Cleaned Link&apos;">
+<!ENTITY pref.contextmenu.contextopen.accesskey "O">
+<!ENTITY rdr.metaData.cleanedLocation "Cleaned Location:">
+<!ENTITY rdr.metaData.host "Site:">
+<!ENTITY rdr.metaData.link "Link">
+<!ENTITY rdr.metaData.image "Imagem">
+<!ENTITY rdr.button.switch "Switch RDR on/off">
+<!ENTITY rdr.button.switch.title2 "Left click: switch RDR on and off; Middle click: Open Options; Right Click: Menu">
+<!ENTITY rdrHelp.title "Redirect Remover: Help">
+<!ENTITY rdrHelp.close "Fechar">
+<!ENTITY rdrHelp.basic "How to use Filters - Simple Filters">
+<!ENTITY rdrHelp.advanced "Filtros avançados">
+<!ENTITY rdrHelp.exp "Adding a filter to the whitelist allows all matching sites to use redirects. There&apos;re many useful cases a filter is needed - say an online translation service - where RDR cannot detect if a link should be cleaned or not. Here are some examples:">
+<!ENTITY rdrHelp.filter "Filtro:">
+<!ENTITY rdrHelp.allows "Permitidos:">
+<!ENTITY rdrHelp.doesntAllow "Não permitidos:">
+<!ENTITY rdrHelp.domainsOnly "By default only domains (the &apos;first part&apos; of the URL) are matched. Otherwise a site could simply include one of the default filters in their links to circumvent RDR.">
+<!ENTITY rdrHelp.advanced.desc "If you&apos;re a little more advanced, you can use * (star, asterik) as a wildcard. For example:">
+<!ENTITY rdrHelp.fullDomains "If you want to match against a whole link, simply start with protocol:// and add your filter. You can still use wildcards AFTER the protocol. This ensures that sites cannot include parts of filters to prevent their links from being cleaned. Examples:">

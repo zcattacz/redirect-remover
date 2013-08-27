@@ -1,0 +1,49 @@
+<!ENTITY rdr.copyCleanLink "정리된 링크 위치 복사">
+<!ENTITY rdr.addToList "목록에 호스트 추가">
+<!ENTITY rdr.removeFromList "목록에서 호스트 제거">
+<!ENTITY rdr.openCleaned "정리한 링크로 열기">
+<!ENTITY rdr.openUnCleaned "정리하지 않은 링크 열기">
+<!ENTITY pref.windowtitle "Redirect Remover 선택사항">
+<!ENTITY pref.whitelist "허용목록">
+<!ENTITY pref.whitelist.desc "허용목록 상의 사이트들은 재지정된 경로를 사용할수도 있습니다.">
+<!ENTITY pref.whitelist.link "필터 설명">
+<!ENTITY pref.whitelist.addr "웹사이트 주소:">
+<!ENTITY pref.whitelist.removepermission.label "필터 삭제">
+<!ENTITY pref.whitelist.removepermission.accesskey "R">
+<!ENTITY pref.whitelist.removeallpermissions.label "모든 필터 제거">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "e">
+<!ENTITY pref.whitelist.adddefault.label "기본 필터 사용">
+<!ENTITY pref.whitelist.adddefault.accesskey "F">
+<!ENTITY pref.whitelist.exclude "정리하지 않음">
+<!ENTITY pref.whitelist.exclude.accesskey "D">
+<!ENTITY pref.misc "기타">
+<!ENTITY pref.cleanImages "불러온 그림 정리">
+<!ENTITY pref.cleanImages.accesskey "I">
+<!ENTITY pref.statusbarbutton "상태막대 내 아이콘 표시">
+<!ENTITY pref.statusbarbutton.accesskey "S">
+<!ENTITY pref.changeCursor "정리된 링크에 특수 커서 사용">
+<!ENTITY pref.changeCursor.accesskey "U">
+<!ENTITY pref.contextmenu.desc "주 문맥 메뉴에 표시 (재지정된 경로를 포함하는 링크):">
+<!ENTITY pref.contextmenu.whitelist "&apos;목록에서 추가/삭제&apos; 표시">
+<!ENTITY pref.contextmenu.whitelist.accesskey "A">
+<!ENTITY pref.contextmenu.copycleanlink "&apos;정리된 링크 위치&apos; 표시">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "C">
+<!ENTITY pref.contextmenu.contextopen "&apos;정리(안)된 링크&apos; 표시">
+<!ENTITY pref.contextmenu.contextopen.accesskey "O">
+<!ENTITY rdr.metaData.cleanedLocation "정리된 위치:">
+<!ENTITY rdr.metaData.host "호스트:">
+<!ENTITY rdr.metaData.link "링크">
+<!ENTITY rdr.metaData.image "그림">
+<!ENTITY rdr.button.switch "RDR 끄기/켜기 스위치">
+<!ENTITY rdr.button.switch.title2 "왼쪽 클릭:RDR 끄기/켜기 전환;가운데 클릭:선택사항 열기;오른쪽 클릭:메뉴">
+<!ENTITY rdrHelp.title "Redirect Remover:도움말">
+<!ENTITY rdrHelp.close "닫기">
+<!ENTITY rdrHelp.basic "필터의 사용법 - 간단한 필터">
+<!ENTITY rdrHelp.advanced "고급 필터">
+<!ENTITY rdrHelp.exp "허용 목록에서의 필터 추가는 일치하는 모든 사이트에서 재지정된 경로를 이용 가능하게 합니다. 온라인 번역 서비스 같이 필터를 필요로 하는 많은 유용한 경우들은 RDR이 링크를 정리할지 말지 탐지할 수 없다. 여기 몇몇 예제들이 있다:">
+<!ENTITY rdrHelp.filter "필터:">
+<!ENTITY rdrHelp.allows "허용:">
+<!ENTITY rdrHelp.doesntAllow "허용하지 않음:">
+<!ENTITY rdrHelp.domainsOnly "기본 단일 도메인(URL의 첫번째 부분)으로 일치합니다. 그렇지 않으면 사이트는 그들의 링크내 RDR를 회피하기 위한 기본 필터의 하나를 간단하게 포함할 수 있습니다.">
+<!ENTITY rdrHelp.advanced.desc "좀 더 상급 사용자라면, 전체 문자로서 * (별표, asterisk )를 사용할 수 있습니다. 예제:">
+<!ENTITY rdrHelp.fullDomains "모든 링크를 일치 하고 싶은 경우, 단순하게 프로토콜명://으로 시작해 필터를 추가합니다. 프로토콜 이후부터 전체문자를 사용할 수 있습니다. 정리된 것에서 그들의 링크를 회피하기 위해 사이트가 필터의 일부를 포함할 수 없다는 것을 보증합니다. 예제:">

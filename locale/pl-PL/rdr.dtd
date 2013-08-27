@@ -1,0 +1,49 @@
+<!ENTITY rdr.copyCleanLink "Kopiuj odnośnik bez przekierowań">
+<!ENTITY rdr.addToList "Dodaj witrynę do wyjątków">
+<!ENTITY rdr.removeFromList "Usuń witrynę z listy wyjątków">
+<!ENTITY rdr.openCleaned "Otwórz odnośnik bez przekierowań">
+<!ENTITY rdr.openUnCleaned "Otwórz odnośnik z przekierowaniem">
+<!ENTITY pref.windowtitle "Redirect Remover - opcje">
+<!ENTITY pref.whitelist "Lista wyjątków">
+<!ENTITY pref.whitelist.desc "Witryny znajdujące się na tej liście mogą używać przekierowań">
+<!ENTITY pref.whitelist.link "Filtry - informacje">
+<!ENTITY pref.whitelist.addr "Adres URL:">
+<!ENTITY pref.whitelist.removepermission.label "Usuń filtr">
+<!ENTITY pref.whitelist.removepermission.accesskey "U">
+<!ENTITY pref.whitelist.removeallpermissions.label "Usuń wszystkie filtry">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "W">
+<!ENTITY pref.whitelist.adddefault.label "Dodaj domyślne filtry">
+<!ENTITY pref.whitelist.adddefault.accesskey "M">
+<!ENTITY pref.whitelist.exclude "Dodaj">
+<!ENTITY pref.whitelist.exclude.accesskey "D">
+<!ENTITY pref.misc "Różne">
+<!ENTITY pref.cleanImages "Podczas wczytywania usuń przekierowania z obrazków">
+<!ENTITY pref.cleanImages.accesskey "S">
+<!ENTITY pref.statusbarbutton "Wyświetl ikonę na pasku stanu">
+<!ENTITY pref.statusbarbutton.accesskey "K">
+<!ENTITY pref.changeCursor "Używaj specjalnego kursora na odnośnikach bez przekierowań">
+<!ENTITY pref.changeCursor.accesskey "C">
+<!ENTITY pref.contextmenu.desc "Wyświetl w głównym menu kontekstowym (na odnośnikach z przekierowaniami) elementy:">
+<!ENTITY pref.contextmenu.whitelist "Dodaj/usuń witrynę z listy wyjątków">
+<!ENTITY pref.contextmenu.whitelist.accesskey "A">
+<!ENTITY pref.contextmenu.copycleanlink "Kopiuj odnośnik bez przekierowań">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "B">
+<!ENTITY pref.contextmenu.contextopen "Otwórz odnośnik z/bez przekierowań">
+<!ENTITY pref.contextmenu.contextopen.accesskey "O">
+<!ENTITY rdr.metaData.cleanedLocation "Oczyszczony adres URL:">
+<!ENTITY rdr.metaData.host "Witryna:">
+<!ENTITY rdr.metaData.link "Odnośnik">
+<!ENTITY rdr.metaData.image "Obrazek">
+<!ENTITY rdr.button.switch "Włącz/wyłącz RDR">
+<!ENTITY rdr.button.switch.title2 "Kliknięcie lp myszy włącza/wyłącza RDR, środkowym - otwiera opcje, prawym - menu">
+<!ENTITY rdrHelp.title "Redirect Remover - jak budować filtry">
+<!ENTITY rdrHelp.close "Zamknij">
+<!ENTITY rdrHelp.basic "Filtry proste">
+<!ENTITY rdrHelp.advanced "Filtry zaawansowane">
+<!ENTITY rdrHelp.exp "Dodanie filtra do listy wyjątków umożliwia wszystkim pasującym do niego stronom używanie przekierowań. Istnieje wiele przypadków kiedy filtr jest potrzebny, np. w internetowych tłumaczach gdzie RDR nie może wykryć, czy odnośnik może być oczyszczony, czy nie. Oto kilka przykładowych filtrów:">
+<!ENTITY rdrHelp.filter "Filtr:">
+<!ENTITY rdrHelp.allows "Zezwala na:">
+<!ENTITY rdrHelp.doesntAllow "Nie zezwala na:">
+<!ENTITY rdrHelp.domainsOnly "Domyślnie sprawdzane są tylko domeny - pierwsza część adresu URL. Gdyby był sprawdzany cały adres URL, to jakiś serwis mógłby umieścić w swoich odnośnikach jednen z domyślnych filtrów, co skutkowałoby nie oczyszczeniem odnośników przez RDR.">
+<!ENTITY rdrHelp.advanced.desc "W celu zastąpienia dowolnego ciągu znaków można używać gwiazdki (*) jako wieloznacznika. Na przykład:">
+<!ENTITY rdrHelp.fullDomains "Jeśli ma być sprawdzany cały odnośnik, wystarczy na początku filtra wpisać protokół (np. http://) i dodać swój filtr. Nadal można używać wieloznaczników. Dzięki temu witryny nie mogą dołączać do odnośników części filtrów, aby zapobiec czyszczeniu odnośników. Przykłady:">

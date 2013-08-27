@@ -1,0 +1,50 @@
+<!ENTITY rdr.copyCleanLink "Copia link privo di reindirizzamento">
+<!ENTITY rdr.addToList "Aggiungi sito nella lista">
+<!ENTITY rdr.removeFromList "Elimina sito dalla lista">
+<!ENTITY rdr.openCleaned "Apri link privo di reindirizzamento">
+<!ENTITY rdr.openUnCleaned "Apri link con reindirizzamento">
+<!ENTITY pref.windowtitle "Opzioni di Redirect Remover">
+<!ENTITY pref.whitelist "Siti con reindirizzamenti">
+<!ENTITY pref.whitelist.desc "I siti presenti nella lista qui sotto potranno utilizzare reindirizzamenti">
+<!ENTITY pref.whitelist.link "Contenuti guida">
+<!ENTITY pref.whitelist.addr "(Inserire l&apos;indirizzo del sito web e fare clic su &apos;Aggiungi&apos;)">
+<!ENTITY pref.whitelist.desc.ext.link "Contenuti guida (con esempi)">
+<!ENTITY pref.whitelist.removepermission.label "Elimina sito">
+<!ENTITY pref.whitelist.removepermission.accesskey "E">
+<!ENTITY pref.whitelist.removeallpermissions.label "Elimina tutti i siti">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "T">
+<!ENTITY pref.whitelist.adddefault.label "Aggiungi siti predefiniti">
+<!ENTITY pref.whitelist.adddefault.accesskey "F">
+<!ENTITY pref.whitelist.exclude "Aggiungi">
+<!ENTITY pref.whitelist.exclude.accesskey "A">
+<!ENTITY pref.misc "Varie">
+<!ENTITY pref.cleanImages "Elimina reindirizzamenti dai link delle immagini al loro caricamento">
+<!ENTITY pref.cleanImages.accesskey "I">
+<!ENTITY pref.statusbarbutton "Mostra l&apos;icona nella barra di stato">
+<!ENTITY pref.statusbarbutton.accesskey "b">
+<!ENTITY pref.changeCursor "Utilizza un cursore speciale sui link privati di reindirizzamento">
+<!ENTITY pref.changeCursor.accesskey "U">
+<!ENTITY pref.contextmenu.desc "Voce di menu da mostrare quando si fa clic con tasto destro del mouse su link con reindirizzamenti:">
+<!ENTITY pref.contextmenu.whitelist "&apos;Aggiungi sito nella lista&apos;">
+<!ENTITY pref.contextmenu.whitelist.accesskey "s">
+<!ENTITY pref.contextmenu.copycleanlink "&apos;Copia link privo di reindirizzamento&apos;">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "C">
+<!ENTITY pref.contextmenu.contextopen "&apos;Apri link con reindirizzamento&apos;">
+<!ENTITY pref.contextmenu.contextopen.accesskey "o">
+<!ENTITY rdr.metaData.cleanedLocation "Indirizzo privo di reindirizzamento:">
+<!ENTITY rdr.metaData.host "Sito:">
+<!ENTITY rdr.metaData.link "Link">
+<!ENTITY rdr.metaData.image "Immagine">
+<!ENTITY rdr.button.switch "Attiva/disattiva RDR">
+<!ENTITY rdr.button.switch.title2 "Fare clic con tasto sx per (dis)attivare RDR, clic centrale per accedere alle opzioni e con tasto dx per il menu">
+<!ENTITY rdrHelp.title "Contenuti guida di Redirect Remover">
+<!ENTITY rdrHelp.close "Chiudi">
+<!ENTITY rdrHelp.basic "Filtri semplici">
+<!ENTITY rdrHelp.advanced "Filtri avanzati">
+<!ENTITY rdrHelp.exp "Aggiungendo un sito alla lista dei siti con reindirizzamento permette a tutti i siti corrispondenti di utilizzare reindirizzamenti. Ci sono molti casi in cui è necessario un filtro semplice - per esempio per i servizi di traduzione in linea - dove per l&apos;estensione è impossibile rilevare se un link dovrebbe essere privato o meno di reindirizzamento. Ecco alcuni esempi">
+<!ENTITY rdrHelp.filter "Filtro:">
+<!ENTITY rdrHelp.allows "Permesso:">
+<!ENTITY rdrHelp.doesntAllow "Non permesso:">
+<!ENTITY rdrHelp.domainsOnly "Come opzione predefinita solo i domini (la &apos;prima parte&apos; dell&apos;URL) sono corrispondenti, altrimenti un sito potrebbe semplicemente includere nei propri link uno dei filtri predefiniti in maniera tale da eludere l&apos;estensione">
+<!ENTITY rdrHelp.advanced.desc "È possibile utilizzare filtri avanzati composti da caratteri jolly (*). Ecco alcuni esempi">
+<!ENTITY rdrHelp.fullDomains "Per eliminare reindirizzamenti da un sito intero, iniziare semplicemente con il protocollo:// ed aggiungere il proprio filtro. È possibile utilizzare caratteri jolly anche dopo il protocollo, assicurandosi così che i siti non possano includere parti di filtri per prevenire che i loro link siano privati dei reindirizzamenti. Ecco alcuni esempi">

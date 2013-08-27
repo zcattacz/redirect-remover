@@ -1,0 +1,50 @@
+<!ENTITY rdr.copyCleanLink "Gesäuberte Link-Adresse kopieren">
+<!ENTITY rdr.addToList "Seite zu den Ausnahmen hinzufügen">
+<!ENTITY rdr.removeFromList "Seite von den Ausnahmen entfernen">
+<!ENTITY rdr.openCleaned "Gesäuberten Link öffnen">
+<!ENTITY rdr.openUnCleaned "Ungesäuberten Link öffnen">
+<!ENTITY pref.windowtitle "Redirect Remover Einstellungen">
+<!ENTITY pref.whitelist "Ausnahmen (Whitelist)">
+<!ENTITY pref.whitelist.desc "Seiten in den Ausnahmen dürfen Umleitungen benutzen.">
+<!ENTITY pref.whitelist.link "Filter erklärt">
+<!ENTITY pref.whitelist.addr "Adresse der Webseite:">
+<!ENTITY pref.whitelist.desc.ext.link "Hilfe (mit Beispielen)">
+<!ENTITY pref.whitelist.removepermission.label "Filter entfernen">
+<!ENTITY pref.whitelist.removepermission.accesskey "F">
+<!ENTITY pref.whitelist.removeallpermissions.label "Alle Filter entfernen">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "A">
+<!ENTITY pref.whitelist.adddefault.label "Standardfilter hinzufügen">
+<!ENTITY pref.whitelist.adddefault.accesskey "d">
+<!ENTITY pref.whitelist.exclude "Nicht säubern">
+<!ENTITY pref.whitelist.exclude.accesskey "N">
+<!ENTITY pref.misc "Sonstiges">
+<!ENTITY pref.cleanImages "Grafiken beim Laden säubern">
+<!ENTITY pref.cleanImages.accesskey "f">
+<!ENTITY pref.statusbarbutton "Symbol in der Statusleiste anzeigen">
+<!ENTITY pref.statusbarbutton.accesskey "S">
+<!ENTITY pref.changeCursor "Speziellen Mauszeiger über gesäuberten Links anzeigen">
+<!ENTITY pref.changeCursor.accesskey "M">
+<!ENTITY pref.contextmenu.desc "Zeige im Hauptkontextmenü (auf Links mit Umleitungen):">
+<!ENTITY pref.contextmenu.whitelist "Zeige &apos;Seite zu/von den Ausnahmen hinzufügen/entfernen&apos;">
+<!ENTITY pref.contextmenu.whitelist.accesskey "H">
+<!ENTITY pref.contextmenu.copycleanlink "Zeige &apos;Gesäuberte Link-Adresse kopieren&apos;">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "G">
+<!ENTITY pref.contextmenu.contextopen "Zeige &apos;(Un)Gesäuberten Link öffnen&apos;">
+<!ENTITY pref.contextmenu.contextopen.accesskey "U">
+<!ENTITY rdr.metaData.cleanedLocation "Gesäuberte Adresse:">
+<!ENTITY rdr.metaData.host "Seite:">
+<!ENTITY rdr.metaData.link "Link">
+<!ENTITY rdr.metaData.image "Grafik">
+<!ENTITY rdr.button.switch "RDR ein/ausschalten">
+<!ENTITY rdr.button.switch.title2 "Linksklick: RDR ein/ausschalten; Mittelklick: Einstellungen öffnen; Rechtsklick: Menü">
+<!ENTITY rdrHelp.title "Redirect Remover: Hilfe">
+<!ENTITY rdrHelp.close "Schließen">
+<!ENTITY rdrHelp.basic "Wie man Filter benutzt - Einfache Filter">
+<!ENTITY rdrHelp.advanced "Komplexere Filter">
+<!ENTITY rdrHelp.exp "Ein hinzugefügter Filter erlaubt es allen darauf passenden Seiten Umleitungen (Redirects) zu verwenden. Es gibt viele nützliche Fälle, in denen ein Filter gebraucht wird - wie z.B. bei einem Online Übersetzungsservice - in denen RDR nicht erkennen kann ob ein Link gesäubert werden sollte oder nicht. Hier sind einige Beispiele:">
+<!ENTITY rdrHelp.filter "Filter:">
+<!ENTITY rdrHelp.allows "Erlaubt:">
+<!ENTITY rdrHelp.doesntAllow "Erlaubt nicht:">
+<!ENTITY rdrHelp.domainsOnly "Standardmäßig werden nur Domains (der &quot;erste Teil&quot; einer Adresse) überprüft. Ansonsten könnten Seiten einfach einen der Standardfilter in ihre Links einbetten um RDR zu umgehen.">
+<!ENTITY rdrHelp.advanced.desc "Wenn Sie etwas mehr Ahnung haben, können Sie * (Stern, Asterik) als Platzhalter verwenden. Zum Beispiel:">
+<!ENTITY rdrHelp.fullDomains "Wenn Sie dagegen einen ganzen Link überprüfen möchten, starten Sie Ihren Filter einfach mit Protokoll:// und danach den Filter. Platzhalter können NACH dem Protokoll weiterhin verwendet werden. Dies dient dazu, dass Seiten nicht einfach Teile der Filter einbetten um so RDR zu umgehen. Beispiele:">

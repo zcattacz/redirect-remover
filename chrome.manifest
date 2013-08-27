@@ -1,0 +1,24 @@
+overlay	chrome://browser/content/browser.xul	chrome://rdr/content/rdr.xul
+overlay	chrome://browser/content/metaData.xul	chrome://rdr/content/metaData.xul
+content	rdr	content/rdr contentaccessible=yes
+content	rdr	content/rdr/
+
+skin	rdr	classic/1.0	skin/classic/rdr/
+style	chrome://browser/content/browser.xul  chrome://rdr/skin/rdr.css
+style	chrome://global/content/customizeToolbar.xul  chrome://rdr/skin/rdr.css
+style	chrome://browser/content/metaData.xul	chrome://rdr/skin/rdr.css
+
+locale	rdr	de-DE	locale/de-DE/
+locale	rdr	en-US	locale/en-US/
+locale	rdr	es-ES	locale/es-ES/
+locale	rdr	fr-FR	locale/fr-FR/
+locale	rdr	hr-HR	locale/hr-HR/
+locale	rdr	hu-HU	locale/hu-HU/
+locale	rdr	it-IT	locale/it-IT/
+locale	rdr	ja-JP	locale/ja-JP/
+locale	rdr	ko-KR	locale/ko-KR/
+locale	rdr	nl-NL locale/nl-NL/
+locale	rdr	pl-PL locale/pl-PL/
+locale	rdr	pt-BR locale/pt-BR/
+locale	rdr	uk-UA locale/uk-UA/
+locale	rdr	zh-CN locale/zh-CN/

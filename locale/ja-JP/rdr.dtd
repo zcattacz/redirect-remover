@@ -1,0 +1,47 @@
+<!ENTITY rdr.copyCleanLink "きれいなリンクの URL をコピー">
+<!ENTITY rdr.addToList "一覧にホストを追加">
+<!ENTITY rdr.removeFromList "一覧からホストを除去">
+<!ENTITY rdr.openCleaned "きれいなリンクを開く">
+<!ENTITY rdr.openUnCleaned "汚れたリンクを開く">
+<!ENTITY pref.windowtitle "Redirect Remover オプション">
+<!ENTITY pref.whitelist "ホワイトリスト">
+<!ENTITY pref.whitelist.desc "ホワイトリストのサイトはリダイレクトを利用できます。">
+<!ENTITY pref.whitelist.link "フィルタ説明">
+<!ENTITY pref.whitelist.addr "ウェブサイトのアドレス:">
+<!ENTITY pref.whitelist.removepermission.label "フィルタを除去">
+<!ENTITY pref.whitelist.removepermission.accesskey "R">
+<!ENTITY pref.whitelist.removeallpermissions.label "すべてのフィルタを除去">
+<!ENTITY pref.whitelist.removeallpermissions.accesskey "e">
+<!ENTITY pref.whitelist.adddefault.label "既定のフィルタを追加">
+<!ENTITY pref.whitelist.adddefault.accesskey "F">
+<!ENTITY pref.whitelist.exclude "きれいにしない">
+<!ENTITY pref.whitelist.exclude.accesskey "D">
+<!ENTITY pref.misc "その他">
+<!ENTITY pref.cleanImages "読み込む画像をきれいにする">
+<!ENTITY pref.cleanImages.accesskey "I">
+<!ENTITY pref.statusbarbutton "ステータスバーにアイコンを表示">
+<!ENTITY pref.statusbarbutton.accesskey "S">
+<!ENTITY pref.changeCursor "きれいなリンクで特別なカーソルを使う">
+<!ENTITY pref.changeCursor.accesskey "U">
+<!ENTITY pref.contextmenu.desc "主コンテキストメニューに表示 ( リダイレクトを伴うリンクで ):">
+<!ENTITY pref.contextmenu.whitelist "「一覧から追加・削除」を表示">
+<!ENTITY pref.contextmenu.whitelist.accesskey "A">
+<!ENTITY pref.contextmenu.copycleanlink "「きれいなリンクの URL をコピー」を表示">
+<!ENTITY pref.contextmenu.copycleanlink.accesskey "C">
+<!ENTITY pref.contextmenu.contextopen "「きれいな・汚れたリンクを開く」を表示">
+<!ENTITY pref.contextmenu.contextopen.accesskey "O">
+<!ENTITY rdr.metaData.cleanedLocation "きれいな場所:">
+<!ENTITY rdr.metaData.host "ホスト:">
+<!ENTITY rdr.metaData.link "リンク">
+<!ENTITY rdr.metaData.image "画像">
+<!ENTITY rdr.button.switch "RDR">
+<!ENTITY rdr.button.switch.title2 "左クリック: RDR のオンとオフを切り替え; 中クリック: オプションを開く; 右クリック: メニュー">
+<!ENTITY rdrHelp.title "Redirect Remover: ヘルプ">
+<!ENTITY rdrHelp.close "閉じる">
+<!ENTITY rdrHelp.basic "フィルタの使い方 - 簡単なフィルタ">
+<!ENTITY rdrHelp.advanced "詳細なフィルタ">
+<!ENTITY rdrHelp.exp "ホワイトリストへのフィルタ追加は、一致するすべてのサイトでリダイレクトを利用可能にします。リンクはきれいにされるべきか否か RDR が検出できない場合、例えばオンライン翻訳サービスなど、フィルタを要する便利な状況は多くあります。いくつか例を以下に示します:">
+<!ENTITY rdrHelp.filter "フィルタ:">
+<!ENTITY rdrHelp.allows "許可:">
+<!ENTITY rdrHelp.doesntAllow "却下:">
+<!ENTITY rdrHelp.advanced.desc "もう少し上級であれば、ワイルドカードとして * ( スター、アスタリスク ) を使うことができます。例:">
