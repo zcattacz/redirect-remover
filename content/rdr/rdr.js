@@ -5,7 +5,7 @@ var rdrb = {
 	lastLink: "",
 	logger: null,
 	fixup: Cc["@mozilla.org/docshell/urifixup;1"].getService(Ci.nsIURIFixup),
-	hist: Cc["@mozilla.org/browser/global-history;2"].getService(Ci.nsIGlobalHistory2),
+	hist: Cc["@mozilla.org/browser/history;1"].getService(Ci.mozIAsyncHistory),
 	// Adds all kinds of observers & injects code in order to clean links
 	init: function () {
 		window.removeEventListener("load",function() { rdrb.init(true); }, false);		
@@ -212,7 +212,7 @@ var rdrb = {
 		if(clean==wrapper.href) return false;
 
 		// Add uncleaned link to history as well, so it's displayed as visited
-		rdrb.addURLToHistory(wrapper.href,linkNode);
+		rdrb.addURLToHistory(wrapper.href, wrapper.ownerDocument.location.href, linkNode);
 		
 		rdrb.origlinkURL=new Array(wrapper,wrapper.href);
 		window.setTimeout("rdrb.resetLink();",0);
@@ -222,15 +222,17 @@ var rdrb = {
 		return true;
 	},
 	
-	addURLToHistory: function(url,node) {
+	addURLToHistory: function(url, origin, node) {
 		uri = rdrb.fixup.createFixupURI(url, 0);
-		if (!rdrb.hist.isVisited(uri)) {
-			rdrb.hist.addURI(uri, false, true, null);
-			var oldHref = node.getAttribute("href");
-			if (typeof oldHref == "string") {
-				node.setAttribute("href", "");
-				node.setAttribute("href", oldHref);
-			}
+		rdrb.hist.updatePlaces( { uri: uri
+			, visits: [ { transitionType: Ci.nsINavHistoryService.TRANSITION_TYPED
+				, visitDate:	Date.now() * 1000
+				, referrerURI:	origin } ]
+		} );
+		var oldHref = node.getAttribute("href");
+		if (typeof(oldHref) == "string") {
+			node.setAttribute("href", "");
+			node.setAttribute("href", oldHref);
 		}
 		return url;
 	},
