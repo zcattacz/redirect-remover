@@ -3,9 +3,9 @@
 <RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 
   <Description about="urn:mozilla:install-manifest">
-    <em:id>{fe0258ab-4f74-43a1-8781-bcdf340f9ee9}</em:id>
+    <em:id>rdr@xeen</em:id>
     <em:name>Redirect Remover</em:name>
-    <em:version>2.6.4</em:version>
+    <em:version>2.6.4.1</em:version>
     <em:description>Removes Redirects from Links and Images</em:description>
     <em:creator>xeen</em:creator>
     <em:homepageURL>http://www.aredeye.com/addons/</em:homepageURL>
