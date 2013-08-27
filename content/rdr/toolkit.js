@@ -186,7 +186,10 @@ var rdr = {
 		// Try to extract
 		re.compile(".+((?:https?|ftp)(?:(?::[^?&]+[?][^=&]+=.*)|(?:(?:%3a|:)[^&]+)))", "i");
 		
-		
+		// workaround google full hex
+		if( link.match(/url=[%0-9a-f]{9,15}%3a%2f%2f[0-9%]+/i) ){
+			return unescape(link.match(/(url=)([%0-9a-f]{9,15}%3a%2f%2f[%0-9a-f]+)/i)[2]);
+		}
 		
 		if(!link.match(re)) {	
 			// If failed, try base64
